@@ -3884,9 +3884,6 @@ input, select, textarea {
 
 
 /* Gallery Carousel */
-
-* { box-sizing: border-box; }
-
 /* prevent vertical scroll bar glitch */
 html { overflow-y: scroll; }
 
