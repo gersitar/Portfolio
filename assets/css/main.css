@@ -3884,19 +3884,24 @@ input, select, textarea {
 
 
 /* Gallery Carousel */
-/* prevent vertical scroll bar glitch */
-html { overflow-y: scroll; }
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
 
 .carousel {
-
+  background: #EEE;
 }
 
-.carousel-cell {
-  width: 100%;
-  min-height: 100%;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
+.carousel img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel img {
+    height: 400px;
+  }
 }
 
 
