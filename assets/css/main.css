@@ -3907,7 +3907,7 @@ input, select, textarea {
   transition: .35s linear;
 }
 
-.gallery img:hover, img:active{
+.gallery img:hover{
   filter: grayscale(0);
   width:  calc(100vh*var(--f)/var(--n));
   height: calc(100vw*var(--f)/var(--m));
