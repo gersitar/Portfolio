@@ -3882,18 +3882,36 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
-/*
+
 /* Gallery Carousel */
 
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+/* prevent vertical scroll bar glitch */
+html { overflow-y: scroll; }
+
+.carousel {
+  background: #EEE;
+}
+
 .carousel-cell {
-  width: 66%;
-  height: 200px;
+  width: 100%;
+  min-height: 100%;
   margin-right: 10px;
   background: #8C8;
   border-radius: 5px;
-  counter-increment: carousel-cell;
+  counter-increment: gallery-cell;
 }
-*/
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+}
+
 
 /* Footer */
 
