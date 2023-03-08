@@ -3887,13 +3887,11 @@ input, select, textarea {
 
 * { box-sizing: border-box; }
 
-body { font-family: sans-serif; }
-
 /* prevent vertical scroll bar glitch */
 html { overflow-y: scroll; }
 
 .carousel {
-  background: #EEE;
+
 }
 
 .carousel-cell {
@@ -3903,13 +3901,6 @@ html { overflow-y: scroll; }
   background: #8C8;
   border-radius: 5px;
   counter-increment: gallery-cell;
-}
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  line-height: 200px;
 }
 
 
